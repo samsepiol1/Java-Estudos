@@ -1,0 +1,1 @@
+javaapplication64.samurai
