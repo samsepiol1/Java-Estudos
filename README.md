@@ -25,6 +25,33 @@ public class ExemploOlaMundo{
   }
 }
 
-
-
 ```
+
+
+Nesse exemplo do código temos uma classa ExemploOlaMundo com o método de imprimir uma mensagem na tela com public static void main
+
+## Tipos de dados em Java 
+
+Tipos Primitivos:
+
+Inteiros: byte, short, int, long
+Ponto flutuante: float, double
+Caracteres: char
+Booleano: boolean
+Tipos de Referência:
+
+Classes: String, Scanner, Random, etc.
+Arrays: int[], String[], etc.
+Interfaces: List, Map, Runnable, etc.
+
+variaveis no java podem ser declaradas das seguintes formas
+
+```java
+double preco;
+char inicial, letra;
+double altura, peso, envergadura;
+```
+
+é possível, inclusive, declarar mais de uma variavel em apenas um linha separando os nomes por virgula e especificando qual o tipo da variavel
+
+
