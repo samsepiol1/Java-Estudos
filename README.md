@@ -6,3 +6,25 @@ A linguagem de programação Java é uma linguagem de programação de alto nív
 
 
 
+## Imprimir mensagem na tela
+
+O System.out.println é um método estático da classe System em Java, utilizado para imprimir mensagens no console. Funciona da seguinte maneira:
+
+System: é uma classe do pacote java.lang, que contém métodos e propriedades para interagir com o ambiente de tempo de execução do sistema.
+out: é um objeto da classe PrintStream, que representa a saída padrão do sistema (normalmente o console).
+println: é um método de PrintStream que imprime uma string e move o cursor para a próxima linha.
+Quando você chama System.out.println("mensagem"), você está usando o método println do objeto out da classe System para imprimir a mensagem no console, seguida por uma nova linha.
+
+
+```java
+package exemplo;
+
+public class ExemploOlaMundo{
+  public static void main(String[] args){
+  System.out.println("Olá Mundo!");
+  }
+}
+
+
+
+```
